@@ -1,0 +1,54 @@
+{
+  "name": "dsh-session-switch",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "桌面版按 Ctrl+Tab 在「当前会话」和「上一个会话」之间来回切。Toggle between the current and the previous session with Ctrl+Tab on DSH Desktop.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "web-ui",
+    "session",
+    "shortcut",
+    "ctrl-tab"
+  ],
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "meta": {
+    "title": "会话快速切换",
+    "description": "桌面版按 Ctrl+Tab 在「当前会话」和「上一个会话」之间来回切；只在这两个之间打转，不会翻到更早的会话。"
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-shortcuts"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session switcher",
+    "description": "Press Ctrl+Tab on DSH Desktop to toggle between the current session and the previous one; it keeps bouncing between those two instead of walking further back."
+  }
+}
