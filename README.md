@@ -4,6 +4,9 @@
 
 [English](README.en.md) | 中文
 
+[![npm](https://img.shields.io/npm/v/dsh-session-switch?color=2F6FED)](https://www.npmjs.com/package/dsh-session-switch)
+[![license](https://img.shields.io/npm/l/dsh-session-switch)](LICENSE)
+
 ![icon](icon.svg)
 
 ## 它做什么
@@ -24,9 +27,15 @@
 
 ## 安装
 
-插件市场或直接装本地目录：
+已发布到 npm：`dsh-session-switch@1.0.0`。三种装法任选：
 
 ```powershell
+# 1) 直接装 npm 包（推荐）
+plugin_manager install_bundle --target dsh-session-switch
+
+# 2) 插件市场里搜「会话快速切换」
+
+# 3) 想改代码就装本地目录（会以 link 方式挂上，改完热更新）
 plugin_manager install_bundle --target D:\GithubRepository\dsh-session-switch
 ```
 

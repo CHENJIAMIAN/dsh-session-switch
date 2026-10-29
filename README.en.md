@@ -4,6 +4,9 @@
 
 English | [中文](README.md)
 
+[![npm](https://img.shields.io/npm/v/dsh-session-switch?color=2F6FED)](https://www.npmjs.com/package/dsh-session-switch)
+[![license](https://img.shields.io/npm/l/dsh-session-switch)](LICENSE)
+
 ![icon](icon.svg)
 
 ## What it does
@@ -24,9 +27,15 @@ Same feel as switching browser tabs: it keeps bouncing between those two and nev
 
 ## Install
 
-From the plugin market, or install the local directory directly:
+Published on npm as `dsh-session-switch@1.0.0`. Pick one:
 
 ```powershell
+# 1) install the npm package (recommended)
+plugin_manager install_bundle --target dsh-session-switch
+
+# 2) search "Session switcher" in the plugin market
+
+# 3) link a local checkout if you want to modify the code (hot-reloads on save)
 plugin_manager install_bundle --target D:\GithubRepository\dsh-session-switch
 ```
 
