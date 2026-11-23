@@ -27,7 +27,7 @@
 
 ## 安装
 
-已发布到 npm：`dsh-session-switch@1.0.0`。三种装法任选：
+已发布到 npm：`dsh-session-switch@1.0.1`。三种装法任选：
 
 ```powershell
 # 1) 直接装 npm 包（推荐）

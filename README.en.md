@@ -27,7 +27,7 @@ Same feel as switching browser tabs: it keeps bouncing between those two and nev
 
 ## Install
 
-Published on npm as `dsh-session-switch@1.0.0`. Pick one:
+Published on npm as `dsh-session-switch@1.0.1`. Pick one:
 
 ```powershell
 # 1) install the npm package (recommended)

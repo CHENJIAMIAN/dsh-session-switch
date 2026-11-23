@@ -1,8 +1,17 @@
 {
   "name": "dsh-session-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "桌面版按 Ctrl+Tab 在「当前会话」和「上一个会话」之间来回切。Toggle between the current and the previous session with Ctrl+Tab on DSH Desktop.",
+  "author": "CHENJIAMIAN",
+  "homepage": "https://github.com/CHENJIAMIAN/dsh-session-switch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHENJIAMIAN/dsh-session-switch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CHENJIAMIAN/dsh-session-switch/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -17,6 +26,7 @@
     "locale/*.json",
     "icon.svg",
     "README.md",
+    "README.en.md",
     "LICENSE"
   ],
   "keywords": [
